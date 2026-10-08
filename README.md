@@ -8,10 +8,18 @@
 
 ```
 characters/   ← 20 готовых персонажей, агент предложит выбрать одного
-prompts/      ← готовые промпты для Claude Code
+prompts/      ← готовые промпты для Claude Code (порядок ниже)
 handout.md    ← инструкция для занятия 1
-github-setup.md ← установка Git + GitHub CLI (шаг 7 инструкции)
+github-setup.md ← зачем Git и GitHub CLI, второй логин, что делать, если не вышло
 ```
+
+## Промпты по порядку
+
+| Шаг | Промпт | Что делает |
+|---|---|---|
+| 1 | [`get-character.md`](prompts/get-character.md) | Агент находит твою папку `work` и скачивает персонажа в `work/Persona/` |
+| 2 | [`persona-page.md`](prompts/persona-page.md) | Агент собирает страницу Persona и открывает её в браузере |
+| 3 | [`github-cli-setup.md`](prompts/github-cli-setup.md) | Агент ставит Git и GitHub CLI и логинится в GitHub. **Обязательно до занятия 2** |
 
 ## Персонажи (папка → кто это)
 
